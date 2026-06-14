@@ -1,4 +1,5 @@
 import React from 'react'
+
 import ProductCard from '../components/common/ProductCard'
 const Product = () => {
   return (
