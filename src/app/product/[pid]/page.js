@@ -1,6 +1,11 @@
+"use client"
+import { useParams } from 'next/navigation'
 import React from 'react'
 
 const ProductDetails = () => {
+    const obj = useParams();
+    console.log(obj);
+    
     return (
         <div>
             <section className="py-8 bg-white md:py-16 dark:bg-gray-900 antialiased">
